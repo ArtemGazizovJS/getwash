@@ -1,6 +1,6 @@
 class Slider {
     constructor(slider, autoplay = true) {
-        // элемент div.carousel
+        
         this.slider = slider;
         // все кадры (слайды)
         this.allFrames = slider.querySelectorAll('.carousel-item');
